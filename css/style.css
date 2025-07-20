@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tsukimi Rounded', sans-serif;
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #600000;
+  padding: 20px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  white-space: nowrap;
+  font-size: 36px;
+  color: #800000;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  white-space: nowrap;
+  font-size: 26px;
+  color: #800000;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+h3 {
+  margin-top: 30px;
+  text-align: center;
+  color: #800000;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+#header {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 30px auto;
+  padding: 40px 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* just in case */
+  white-space: nowrap;
+}
+
+.credit {
+  text-align: center;
+  font-weight: bold;
+  color: #800000;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+a {
+  color: #800000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.centered-image {
+  text-align: center;
+  margin: 0 auto;
+}
+
+figure img {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+
+.col {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 100, 0, 0.2);
+}
+
+.middle-row {
+  background-color: transparent;
+  padding: 0;
+}
+
+#ingredients, #equipment, #directions {
+  font-size: 16px;
+  text-shadow: none;
+  font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+ul, ol {
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+
+.nobullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ .subhead {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  color: #800000;
+  padding: 2px 6px;
+  border-radius: 4px;
+} 
+
+fieldset {
+  margin: 10px auto;
+  padding: 15px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.rate {
+  font-size: 20px;
+  text-align: center;
+  color: #800000;
+}
+
+input[type="number"] {
+  width: 60px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 4px 6px;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #800000;
+}
